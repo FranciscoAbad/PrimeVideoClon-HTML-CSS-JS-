@@ -1,0 +1,793 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/d8fb8ebadf.js" crossorigin="anonymous"></script>
+
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="styles.css">
+
+
+
+    <title>PrimeVideo</title>
+</head>
+
+<body>
+    <header class="nav">
+        <div class="nav__container">
+            <div class="nav__section1">
+                <div class="nav__logo">
+                    <img src="img/amazonlogo.svg" alt="">
+                </div>
+                <ul>
+                    <li class="subnav__active"><a class="subnav__active" href="">Explorar</a></li>
+                    <li class="nav__navegation-item"><a href="">Inicio</a></li>
+                    <li class="nav__navegation-item"><a href="">Series</a></li>
+                    <li class="nav__navegation-item"><a href="">Películas</a></li>
+
+                    <li class="submenu2__active" id="submenu2__active"><a class="submenu2__active"
+                            href="">Categorías</a><i class="fas fa-sort-down"></i></li>
+
+
+                </ul>
+                <ul class="sub__nav">
+
+                </ul>
+            </div>
+            <div class="nav__section2">
+                <div class="nav__browser">
+                    <i class="fas fa-search"></i>
+                    <input placeholder="Buscar..." type="text">
+                </div>
+                <div class="nav__perfil" id="nav__perfil">
+                    <img src="img/perfil1.png" alt="">
+                    <span> Pancho</span>
+                    <i class="fas fa-sort-down"></i>
+                </div>
+            </div>
+        </div>
+        <div class="nav__submenu" id="nav__submenu">
+            <div>
+                <ul>
+                    <li><a href=""> Mi lista</a></li>
+                    <li><a href=""> Cuenta y configuración</a></li>
+                    <li><a href="">Dispositivos <br>Compatibles</a></li>
+                    <li><a href="">Ayuda</a></li>
+                    <li><a href="">¿No eres pancho?<br>Cerrar sesión
+                        </a></li>
+                </ul>
+            </div>
+            <div>
+                <ul>
+                    <li><a href=""><img src="img/perfil2.png" alt=""> <span>pancho</span> </a></li>
+                    <li><a href=""><img src="img/perfil3.png" alt=""><span>Infantil</span></a></li>
+                    <li><a href=""><i class="fas fa-plus"></i> <span>Añadir Perfil</span> </a></li>
+                    <li class="submenu__button"><a href="">Editar perfiles</a></li>
+                    <li class="submenu__button"><a href="">Más Información</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="nav__submenu2" id="nav__submenu2">
+            <div>
+                <div>
+                    <div class="submenu2__container1">
+                        <h3>Categorías principales</h3>
+                        <ul>
+                            <li>
+                                <a href=""><span>Amazon Originals</span> </a>
+                            </li>
+                            <li>
+                                <a href="">Infantil</a>
+                            </li>
+                            <li>
+                                <a href="">Películas <br> añadidas <br> recientemente</a>
+                            </li>
+                            <li>
+                                <a href="">Series añadidas <br> recientemente</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div>
+                    <div class="submenu2__container2a">
+                        <h3>Generos</h3>
+                        <ul>
+                            <li><a href="">Accíon y aventuras</a></li>
+                            <li><a href="">Comedia</a></li>
+                            <li><a href="">Drama</a></li>
+                            <li><a href="">Documental</a></li>
+                            <li><a href="">Infantil y familiar</a></li>
+                            <li><a href="">Fantasía</a></li>
+                            <li><a href="">Terror</a></li>
+                            <li><a href="">Romance</a></li>
+                            <li><a href="">Ciencia ficción</a></li>
+                            <li><a href="">Suspenso</a></li>
+                            <li><a href="">Anime</a></li>
+                            <li><a href="">Deportes</a></li>
+                            <li><a href="">Crimen y policíaco</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="submenu2__container2b">
+                        <h3>Otras categorias</h3>
+                        <ul>
+                            <li><a href="">Titulos galardonados</a></li>
+                            <li><a href="">Solo por tiempo limitado en prime</a></li>
+                        </ul>
+                    </div>
+
+
+                </div>
+
+            </div>
+        </div>
+
+    </header>
+    <main>
+        <div class="main__container">
+            <div class="main__section1">
+
+                <div class="banner__slider-container">
+
+                    <div class="banner__slider" id="slider">
+                        <div class="banner__slider-section">
+                            <img class="banner__slider-img" src="img/banner__slider1.jpeg" alt="">
+                            <div class="banner__slider-trailer" id="sliderTrailer">
+                                <div class="trailer__information">
+                                    <div>
+                                        <h3>Spider-Man: Lejos De Casa</h3>
+                                        <p>Peter Parker decide irse junto a MJ, Ned y el resto de sus amigos a pasar
+                                            unas vacaciones a Europa. Sin embargo, el plan de Parker por dejar de lado
+                                            sus superpoderes durante unas semanas se ven truncados cuando Nick Fury
+                                            contacta con él para solicitarle ayuda para frenar el ataque de unas... </p>
+                                        <div>
+                                            <a href=""><i class="fas fa-play"></i><span>Ver ahora</span></a>
+                                            <a href=""><i class="fas fa-plus"></i><span>Mi lista</span></a>
+                                            <a href=""><span>Detalles</span></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="trailer__video"><video src="video/trailer__spiderman.mp4" autoplay loop
+                                        muted></video><a href=""><i class="fas fa-volume-mute"></i></a></div>
+                            </div>
+                        </div>
+                        <div class="banner__slider-section">
+                            <img class="banner__slider-img" src="img/banner__slider2.jpeg" alt="">
+                            <div class="banner__slider-trailer" id="sliderTrailer">
+                                <div class="trailer__information">
+                                    <div>
+                                        <h3>Young Sheldon: Season 4</h3>
+                                        <p>YOUNG SHELDON es una comedia que nos muestra a un joven Sheldon Cooper en
+                                            medio de sus dificultades al crecer en el este de texas</p>
+                                        <div>
+                                            <a href=""><i class="fas fa-play"></i><span>Ver ahora</span></a>
+                                            <a href=""><i class="fas fa-plus"></i><span>Mi lista</span></a>
+                                            <a href=""><span>Detalles</span></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="trailer__video"><video src="video/trailer__youngSheldon.mp4" autoplay loop
+                                        muted></video><a href=""><i class="fas fa-volume-mute"></i></a></div>
+                            </div>
+                        </div>
+                        <div class="banner__slider-section">
+                            <img class="banner__slider-img" src="img/banner__slider3.jpeg" alt="">
+                            <div class="banner__slider-trailer" id="sliderTrailer">
+                                <div class="trailer__information">
+                                    <div>
+                                        <h3>Se Lo Que Hicieron El Verano Pasado</h3>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis,
+                                            perspiciatis. Quae, deserunt sit, officia dolores officiis eligendi
+                                            repellendus aspernatur nemo quasi </p>
+                                        <div>
+                                            <a href=""><i class="fas fa-play"></i><span>Ver ahora</span></a>
+                                            <a href=""><i class="fas fa-plus"></i><span>Mi lista</span></a>
+                                            <a href=""><span>Detalles</span></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="trailer__video"><video class=".video__play"
+                                        src="video/trailer__veranoPasado.mp4" autoplay loop muted></video><a href=""><i
+                                            class="fas fa-volume-mute"></i></a></div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="slider__btn slider__btn--right" id="btn-right"><i class="fas fa-chevron-right"></i></div>
+                <div class="slider__btn slider__btn--left" id="btn-left"><i class="fas fa-chevron-left"></i></div>
+            </div>
+            <div class="main__trailer1"> </div>
+
+            <div class="main__section">
+
+                <div class="main__swiper-container">
+
+
+                    <h3>Seguir viendo</h3>
+
+                    <div class="swiper">
+
+
+
+                        <div class="swiper-wrapper">
+
+
+                            <div class="swiper-slide">
+                                <img src="img/main__carousel1.jpg" alt="">
+                                <div class="carouselcard__container">
+                                    <div>
+                                        <a href="">
+                                            <i class="fas fa-play"></i>
+                                            <span>Ver ahora</span>
+                                        </a>
+                                        <a href="">
+                                            <i class="fas fa-plus"></i>
+                                            <span>Mi lista</span>
+                                        </a>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="img/main__carousel2.jpg" alt="">
+                                <div class="carouselcard__container">
+                                    <div>
+                                        <a href="">
+                                            <i class="fas fa-play"></i>
+                                            <span>Ver ahora</span>
+                                        </a>
+                                        <a href="">
+                                            <i class="fas fa-plus"></i>
+                                            <span>Mi lista</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="img/main__carousel3.jpg" alt="">
+                                <div class="carouselcard__container">
+                                    <div>
+                                        <a href="">
+                                            <i class="fas fa-play"></i>
+                                            <span>Ver ahora</span>
+                                        </a>
+                                        <a href="">
+                                            <i class="fas fa-plus"></i>
+                                            <span>Mi lista</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="img/main__carousel4.jpg" alt="">
+                                <div class="carouselcard__container">
+                                    <div>
+                                        <a href="">
+                                            <i class="fas fa-play"></i>
+                                            <span>Ver ahora</span>
+                                        </a>
+                                        <a href="">
+                                            <i class="fas fa-plus"></i>
+                                            <span>Mi lista</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="img/main__carousel5.jpg" alt="">
+                                <div class="carouselcard__container">
+                                    <div>
+                                        <a href="">
+                                            <i class="fas fa-play"></i>
+                                            <span>Ver ahora</span>
+                                        </a>
+                                        <a href="">
+                                            <i class="fas fa-plus"></i>
+                                            <span>Mi lista</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="img/main__carousel6.jpg" alt="">
+                                <div class="carouselcard__container">
+                                    <div>
+                                        <a href="">
+                                            <i class="fas fa-play"></i>
+                                            <span>Ver ahora</span>
+                                        </a>
+                                        <a href="">
+                                            <i class="fas fa-plus"></i>
+                                            <span>Mi lista</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="img/main__carousel7.jpg" alt="">
+                                <div class="carouselcard__container">
+                                    <div>
+                                        <a href="">
+                                            <i class="fas fa-play"></i>
+                                            <span>Ver ahora</span>
+                                        </a>
+                                        <a href="">
+                                            <i class="fas fa-plus"></i>
+                                            <span>Mi lista</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="img/main__carousel8.jpg" alt="">
+                                <div class="carouselcard__container">
+                                    <div>
+                                        <a href="">
+                                            <i class="fas fa-play"></i>
+                                            <span>Ver ahora</span>
+                                        </a>
+                                        <a href="">
+                                            <i class="fas fa-plus"></i>
+                                            <span>Mi lista</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                        </div>
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-button-next"></div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="main__section">
+                <div class="main__swiper-container">
+                    <h3>Amazon Originals y Exlusivos</h3>
+                    <div class="swiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <img src="img/main2__carousel1.jpg" alt="">
+                                <div class="carouselcard__container">
+                                    <div>
+                                        <a href="">
+                                            <i class="fas fa-play"></i>
+                                            <span>Ver ahora</span>
+                                        </a>
+                                        <a href="">
+                                            <i class="fas fa-plus"></i>
+                                            <span>Mi lista</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="img/main2__carousel2.jpg" alt="">
+                                <div class="carouselcard__container">
+                                    <div>
+                                        <a href="">
+                                            <i class="fas fa-play"></i>
+                                            <span>Ver ahora</span>
+                                        </a>
+                                        <a href="">
+                                            <i class="fas fa-plus"></i>
+                                            <span>Mi lista</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="img/main2__carousel3.jpg" alt="">
+                                <div class="carouselcard__container">
+                                    <div>
+                                        <a href="">
+                                            <i class="fas fa-play"></i>
+                                            <span>Ver ahora</span>
+                                        </a>
+                                        <a href="">
+                                            <i class="fas fa-plus"></i>
+                                            <span>Mi lista</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="img/main2__carousel4.jpg" alt="">
+                                <div class="carouselcard__container">
+                                    <div>
+                                        <a href="">
+                                            <i class="fas fa-play"></i>
+                                            <span>Ver ahora</span>
+                                        </a>
+                                        <a href="">
+                                            <i class="fas fa-plus"></i>
+                                            <span>Mi lista</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="img/main2__carousel5.jpg" alt="">
+                                <div class="carouselcard__container">
+                                    <div>
+                                        <a href="">
+                                            <i class="fas fa-play"></i>
+                                            <span>Ver ahora</span>
+                                        </a>
+                                        <a href="">
+                                            <i class="fas fa-plus"></i>
+                                            <span>Mi lista</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="img/main2__carousel6.jpg" alt="">
+                                <div class="carouselcard__container">
+                                    <div>
+                                        <a href="">
+                                            <i class="fas fa-play"></i>
+                                            <span>Ver ahora</span>
+                                        </a>
+                                        <a href="">
+                                            <i class="fas fa-plus"></i>
+                                            <span>Mi lista</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="img/main2__carousel7.jpg" alt="">
+                                <div class="carouselcard__container">
+                                    <div>
+                                        <a href="">
+                                            <i class="fas fa-play"></i>
+                                            <span>Ver ahora</span>
+                                        </a>
+                                        <a href="">
+                                            <i class="fas fa-plus"></i>
+                                            <span>Mi lista</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="img/main2__carousel8.jpg" alt="">
+                                <div class="carouselcard__container">
+                                    <div>
+                                        <a href="">
+                                            <i class="fas fa-play"></i>
+                                            <span>Ver ahora</span>
+                                        </a>
+                                        <a href="">
+                                            <i class="fas fa-plus"></i>
+                                            <span>Mi lista</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="img/main2__carousel9.jpg" alt="">
+                                <div class="carouselcard__container">
+                                    <div>
+                                        <a href="">
+                                            <i class="fas fa-play"></i>
+                                            <span>Ver ahora</span>
+                                        </a>
+                                        <a href="">
+                                            <i class="fas fa-plus"></i>
+                                            <span>Mi lista</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+                        </div>
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-button-next"></div>
+
+                    </div>
+                    <h3>Amazon Originals y Exlusivos</h3>
+                    <div class="swiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <img src="img/main__carousel8.jpg" alt="">
+                                <div class="carouselcard__container">
+                                    <div>
+                                        <a href="">
+                                            <i class="fas fa-play"></i>
+                                            <span>Ver ahora</span>
+                                        </a>
+                                        <a href="">
+                                            <i class="fas fa-plus"></i>
+                                            <span>Mi lista</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="img/main__carousel6.jpg" alt="">
+                                <div class="carouselcard__container">
+                                    <div>
+                                        <a href="">
+                                            <i class="fas fa-play"></i>
+                                            <span>Ver ahora</span>
+                                        </a>
+                                        <a href="">
+                                            <i class="fas fa-plus"></i>
+                                            <span>Mi lista</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="img/main2__carousel7.jpg" alt="">
+                                <div class="carouselcard__container">
+                                    <div>
+                                        <a href="">
+                                            <i class="fas fa-play"></i>
+                                            <span>Ver ahora</span>
+                                        </a>
+                                        <a href="">
+                                            <i class="fas fa-plus"></i>
+                                            <span>Mi lista</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="img/main__carousel4.jpg" alt="">
+                                <div class="carouselcard__container">
+                                    <div>
+                                        <a href="">
+                                            <i class="fas fa-play"></i>
+                                            <span>Ver ahora</span>
+                                        </a>
+                                        <a href="">
+                                            <i class="fas fa-plus"></i>
+                                            <span>Mi lista</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="img/main2__carousel1.jpg" alt="">
+                                <div class="carouselcard__container">
+                                    <div>
+                                        <a href="">
+                                            <i class="fas fa-play"></i>
+                                            <span>Ver ahora</span>
+                                        </a>
+                                        <a href="">
+                                            <i class="fas fa-plus"></i>
+                                            <span>Mi lista</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="img/main__carousel3.jpg" alt="">
+                                <div class="carouselcard__container">
+                                    <div>
+                                        <a href="">
+                                            <i class="fas fa-play"></i>
+                                            <span>Ver ahora</span>
+                                        </a>
+                                        <a href="">
+                                            <i class="fas fa-plus"></i>
+                                            <span>Mi lista</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="img/main__carousel2.jpg" alt="">
+                                <div class="carouselcard__container">
+                                    <div>
+                                        <a href="">
+                                            <i class="fas fa-play"></i>
+                                            <span>Ver ahora</span>
+                                        </a>
+                                        <a href="">
+                                            <i class="fas fa-plus"></i>
+                                            <span>Mi lista</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="img/main2__carousel3.jpg" alt="">
+                                <div class="carouselcard__container">
+                                    <div>
+                                        <a href="">
+                                            <i class="fas fa-play"></i>
+                                            <span>Ver ahora</span>
+                                        </a>
+                                        <a href="">
+                                            <i class="fas fa-plus"></i>
+                                            <span>Mi lista</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="img/main__carousel8.jpg" alt="">
+                                <div class="carouselcard__container">
+                                    <div>
+                                        <a href="">
+                                            <i class="fas fa-play"></i>
+                                            <span>Ver ahora</span>
+                                        </a>
+                                        <a href="">
+                                            <i class="fas fa-plus"></i>
+                                            <span>Mi lista</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+                        </div>
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-button-next"></div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="main__section">
+                <div class="main__swiper-container">
+                    <h3>Películas que te recomendamos</h3>
+                    <div class="swiper">
+                        <div class="double_swipper swiper-wrapper">
+                            <div class="swiper-slide">
+                                <img src="img/main__carousel1.jpg" alt="">
+                                <div class="carouselcard__container"></div>
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="img/main__carousel2.jpg" alt="">
+                                <div class="carouselcard__container"></div>
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="img/main__carousel3.jpg" alt="">
+                                <div class="carouselcard__container"></div>
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="img/main__carousel4.jpg" alt="">
+                                <div class="carouselcard__container"></div>
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="img/main__carousel5.jpg" alt="">
+                                <div class="carouselcard__container"></div>
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="img/main__carousel6.jpg" alt="">
+                                <div class="carouselcard__container"></div>
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="img/main__carousel7.jpg" alt="">
+                                <div class="carouselcard__container"></div>
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="img/main__carousel8.jpg" alt="">
+                                <div class="carouselcard__container"></div>
+                            </div>
+
+
+                        </div>
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-button-next"></div>
+
+                    </div>
+                    <div class="swiper">
+                        <div class="double__swiper swiper-wrapper">
+                            <div class="swiper-slide">
+                                <img src="img/main2__carousel1.jpg" alt="">
+                                <div class="carouselcard__container"></div>
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="img/main2__carousel2.jpg" alt="">
+                                <div class="carouselcard__container"></div>
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="img/main2__carousel3.jpg" alt="">
+                                <div class="carouselcard__container"></div>
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="img/main2__carousel4.jpg" alt="">
+                                <div class="carouselcard__container"></div>
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="img/main2__carousel5.jpg" alt="">
+                                <div class="carouselcard__container"></div>
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="img/main2__carousel6.jpg" alt="">
+                                <div class="carouselcard__container"></div>
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="img/main2__carousel7.jpg" alt="">
+                                <div class="carouselcard__container"></div>
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="img/main2__carousel8.jpg" alt="">
+                                <div class="carouselcard__container"></div>
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="img/main2__carousel9.jpg" alt="">
+                                <div class="carouselcard__container"></div>
+                            </div>
+
+
+                        </div>
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-button-next"></div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        </div>
+
+        </div>
+
+    </main>
+    <script src="scripts/slider.js"></script>
+    <script src="scripts/submenu2.js"></script>
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper('.swiper', {
+            // Default parameters
+            slidesPerView: 1.4,
+            spaceBetween: 0,
+
+            // Responsive breakpoints
+            breakpoints: {
+                585: {
+                    slidesPerView: 2.4,
+                    spaceBetween: 0,
+                    watchOverFlow: true
+                },
+                885: {
+                    slidesPerView: 3.4,
+                    spaceBetween: 0
+                },
+                1185: {
+                    slidesPerView: 4.4,
+                    spaceBetween: 0
+                },
+                1485: {
+                    slidesPerView: 5.4,
+                    spaceBetween: 0
+                },
+                1785: {
+                    slidesPerView: 6.4,
+                    spaceBetween: 0
+                }
+            },
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+
+
+        });
+    </script>
+
+</body>
+
+</html>
