@@ -142,6 +142,86 @@ body {
 }
 
 /* ------------------- NAV SUB MENU -----------------------------------*/
+
+.nav__submenu3{
+    display: none;
+    position: fixed;
+    width: 100%;
+    background-color: #252E39;
+    z-index: 600;
+    top: 56px;
+}
+.nav__submenu3 > div:first-child > ul{
+    
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+}
+.nav__submenu3 > div:first-child > ul >li{
+    background-color: #252E39;
+    border-bottom: 1px solid #323E4C;
+    height: 49px;
+    width: 100%;
+    z-index: 600;
+    text-decoration: none;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+.nav__submenu3 > div:first-child > ul >li>a{
+    text-decoration: none;
+    color: #D8D8DE;
+    padding: 14px 20px;
+    width: 100%;
+}
+.nav__submenu3 > div:first-child > ul >li>a:last-child:hover{
+   
+    color: white;
+   transition: all 0.5s;
+}
+.nav__submenu3 > div > ul >li>a>div>i{
+    transform: translateY(-0.6px);
+    font-size: 0.8em;
+    color: #8197A4;
+}
+.submenu3__second{
+display: none;
+    height: 100%;
+background: linear-gradient(#152735, #0F171E);
+padding: 24px 16px;
+}
+.submenu3__second > ul{
+   list-style: none;
+    height: 100%;
+   width: 100%;
+ 
+   padding: 0 0;
+
+}
+.submenu3__second > ul > li{
+    margin-bottom:16px ;
+ }
+
+ .submenu3__second > ul > li>a{
+   padding-left: 4px;
+    text-decoration: none;
+    color: #8197A4;
+    font-size: 0.95em;
+    
+ 
+ }
+ .submenu3__second > ul > li>a:hover{
+
+
+  font-size: 1.01em;
+    
+  
+  }
+ .submenu3__list-header > a {
+    color: white !important;  
+    font-size: 0.95em !important; 
+
+}
 .nav__submenu {
     position: fixed;
     height: 268px;
@@ -317,7 +397,7 @@ body {
 
 .submenu2__container2a>ul>li>a:hover {
     color: white;
-    transition: 0.3s;
+    transition: 1s;
 }
 
 .submenu2__container2b>h3 {
@@ -419,7 +499,7 @@ body {
 @media screen and (max-width: 1600px) {
 
     .main__section1 {
-        height: 20vw;
+    height: 20vw;
     }
 }
 
@@ -743,6 +823,9 @@ body {
 .mostrar {
     display: flex;
 }
+.mostrar3 {
+    display: block;
+}
 
 /* ------------------------- BANNER SLIDER ------------------------------*/
 @media screen and (max-width: 1600px) {
@@ -792,7 +875,7 @@ body {
     }
 
     .nav__browser {
-        background-color: none;
+       
         border: none;
         height: 40px;
         width: 100%;
@@ -955,7 +1038,7 @@ body {
 .movie__main-buttonsa>div:first-child {
     display: flex;
     justify-content: left;
-    align-items: top;
+
 }
 
 .movie__main-buttonsa>div:first-child>a {
