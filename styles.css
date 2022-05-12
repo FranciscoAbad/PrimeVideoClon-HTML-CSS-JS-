@@ -759,6 +759,9 @@ body {
         height: 72px;
     }
 
+    .nav__submenu2{
+      top: 72px;
+    }
     .nav__submenu2>div:first-child {
         padding-right: 1em;
 
@@ -796,7 +799,9 @@ body {
 
 
     }
-
+    .nav__submenu2{
+        top: 56px;
+      }
     .nav__submenu2>div:first-child {
         padding-right: 50px;
 
@@ -849,13 +854,15 @@ body {
         height: 40px;
     }
 
-
-
+    
 }
+@media screen and (max-width: 800px) {
 
 
-@media screen and (max-width: 721px) {
 
+    .nav__submenu2 {
+        display: none;
+    }
     .nav__section1>ul>li {
         display: none;
     }
@@ -872,10 +879,14 @@ body {
         display: block;
     }
 
-    .nav__submenu2 {
-        display: none;
-    }
+}
 
+
+@media screen and (max-width: 721px) {
+
+    
+
+  
     .trailer__information>div>div>a {
         display: none;
     }
