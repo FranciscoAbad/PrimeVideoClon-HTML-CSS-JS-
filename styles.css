@@ -392,7 +392,7 @@ padding: 24px 16px;
 .submenu2__container2a>ul>li>a {
     text-decoration: none;
     color: #8197a4;
-    font-size: 15px;
+    font-size: 19px;
 }
 
 .submenu2__container2a>ul>li>a:hover {
@@ -420,7 +420,7 @@ padding: 24px 16px;
 .submenu2__container2b>ul>li>a {
     text-decoration: none;
     color: #8197a4;
-    font-size: 15px;
+    font-size: 19px;
 }
 
 .submenu2__container2b>ul>li>a:hover {
@@ -849,8 +849,23 @@ padding: 24px 16px;
         padding-right: 1em;
 
     }
+    .nav__submenu2>div:last-child>div {
+       flex-direction: column !important;
+    }
+    .submenu2__container2b>ul { 
+        grid-gap: 0px;
+    }
+    .submenu2__container2a>ul { 
+        grid-gap: 0px;
+    }
 }
+@media screen and (max-width: 1065px){
+    .submenu2__container1>ul>li {
+        width:102%;
 
+    }
+
+}
 @media screen and (max-width: 1024px) {
 
     .nav__container {
@@ -885,17 +900,24 @@ padding: 24px 16px;
     .nav__submenu2{
         top: 56px;
       }
-    .nav__submenu2>div:first-child {
-        padding-right: 50px;
+   
+    .nav__submenu2>div>div{
+        justify-content: center !important;
+        
 
     }
-
+    
     .submenu2__container1>ul {
         grid-template-columns: 1fr 1fr;
 
 
     }
+    .submenu2__container1>ul>li {
+        width:97%;
 
+    }
+    
+    
     .trailer__video {
         padding-left: 100px;
     }
@@ -961,8 +983,15 @@ padding: 24px 16px;
     .nav__section1>ul>li:first-child>a {
         display: block;
     }
+   
 
 }
+@media screen and (min-width: 800px) {
+    .nav__submenu3{
+        display: none !important;
+    }
+}
+
 
 
 @media screen and (max-width: 721px) {
